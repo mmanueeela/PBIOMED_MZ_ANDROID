@@ -1,7 +1,5 @@
 # 🌳PBIOMED_MZ_ANDROID
 Este repositorio forma parte del proyecto PBIOMED (Biometría y Medio Ambiente) y contiene la aplicación Android desarrollada para interactuar con dispositivos Bluetooth Low Energy (BLE). La aplicación se encarga de escanear y conectarse a dispositivos BLE cercanos, y también realiza peticiones REST a un servidor para almacenar datos de medición.
-# 🔎 Descripción del Proyecto
-------
 # 📁 Contenido del Repositorio
 - _MainActivity.java_: El archivo principal de la aplicación Android que gestiona el escaneo y la conexión a dispositivos BLE, así como las peticiones REST.
 - _PeticionarioREST.java_: Una clase que se encarga de realizar peticiones REST al servidor.
