@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
     // --------------------------------------------------------------
     // Cadena UUID específica para filtrar dispositivos
     // --------------------------------------------------------------
-    private final String uuidString = "We love Jaen yey";
+    private final String uuidString = "holaMundoManuela";
 
     //---------------------------------------------------------------
     // Objeto para manejar la trama iBeacon
