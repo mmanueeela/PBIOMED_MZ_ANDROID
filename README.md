@@ -2,7 +2,11 @@
 Este repositorio forma parte del proyecto PBIOMED (Biometría y Medio Ambiente) y contiene la aplicación Android desarrollada para interactuar con dispositivos Bluetooth Low Energy (BLE). La aplicación se encarga de escanear y conectarse a dispositivos BLE cercanos, y también realiza peticiones REST a un servidor para almacenar datos de medición.
 # 📁 Contenido del Repositorio
 - _MainActivity.java_: El archivo principal de la aplicación Android que gestiona el escaneo y la conexión a dispositivos BLE, así como las peticiones REST.
-- _PeticionarioREST.java_: Una clase que se encarga de realizar peticiones REST al servidor.
+- _PeticionarioREST.java_: Una clase que se encarga de realizar peticiones REST al servidor de manera asíncrona.
+- _PeticionarioRESTWorker.java_: Un Worker para realizar solicitudes REST a la API de mediciones en segundo plano, utilizando el framework WorkManager de Android.
+- _TramaIBeacon.java:_Representa la estructura de una trama iBeacon y proporciona métodos para acceder a sus campos, como el UUID, major, minor y txPower.
+- _Utilidades.java_: Proporciona métodos estáticos para la manipulación de bytes, UUIDs y conversiones entre diversos formatos de datos.
+
 Otros archivos y recursos necesarios para la aplicación Android.
 
 **Peticiones REST**
