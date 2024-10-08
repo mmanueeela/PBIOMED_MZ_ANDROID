@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">TestSprint0ProjBio</string>
+    <string name="ppm">"Ppm = "</string>
+    <style name="Base.Theme.TestSprint0ProjBio" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.TestSprint0ProjBio" parent="Base.Theme.TestSprint0ProjBio"/>
+</resources>
